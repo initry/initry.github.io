@@ -279,6 +279,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#download" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#configuration" class="md-nav__link">
     <span class="md-ellipsis">
       Configuration
@@ -433,6 +442,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#download" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#configuration" class="md-nav__link">
     <span class="md-ellipsis">
       Configuration
@@ -502,19 +520,24 @@ You can review test runs and tests that are in progress or have been completed.<
 <li>MongoDB 7</li>
 <li>Docker</li>
 </ul>
+<h3 id="download">Download</h3>
+<p>Clone repo from Github
+    <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git clone git@github.com:initry/initry.git
+</span></code></pre></div></p>
+<p>or get it manually from <strong><a href="https://github.com/initry/initry">https://github.com/initry/initry</a></strong>  </p>
 <h3 id="configuration">Configuration</h3>
 <p>Before running initry, make sure to set up your environment:</p>
 <ol>
 <li>
 <p>Navigate to the <code>backend</code> folder and create your <code>.env</code> file by copying the <code>env.example</code> file:
-    <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cp env.example .env
+    <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>cp env.example .env
 </span></code></pre></div></p>
 </li>
 <li>
 <p>Configure the <code>.env</code> file based on your settings. Open the <code>.env</code> file and set values for the environment variables. </p>
 </li>
 <li>Navigate to the <code>frontend</code> folder, create your <code>.env</code> file by copying the <code>env.example</code> file and do the necessary changes in envs based on your settings:
-    <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>cp env.example .env
+    <div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>cp env.example .env
 </span></code></pre></div></li>
 </ol>
 <h3 id="running-initry">Running Initry</h3>
@@ -525,7 +548,7 @@ You can review test runs and tests that are in progress or have been completed.<
 </li>
 <li>
 <p>Execute the <code>run_docker.sh</code> script:
-    <div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>./run_docker.sh
+    <div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>./run_docker.sh
 </span></code></pre></div></p>
 </li>
 </ol>
